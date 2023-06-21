@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/types/*"
+      ],
+      "lodash": [
+        "node_modules/lodash"
+      ],
+      "dotenv": [
+        "node_modules/dotenv/lib/main.js"
+      ]
+    },
+
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "lib": ["es2015"],
+  "typeAcquisition": {
+    "include": ["jest"]
+  }
+}
